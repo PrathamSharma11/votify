@@ -1,0 +1,36 @@
+<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background check shape -->
+  <path d="M50 50 L70 70 L90 30" 
+        stroke="#4CAF50" 
+        stroke-width="6" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"
+        fill="none">
+    <animate attributeName="stroke-dasharray" 
+             from="0,1000" 
+             to="200,1000" 
+             dur="1s" 
+             fill="freeze"/>
+  </path>
+  
+  <!-- Company Name -->
+  <text x="110" 
+        y="65" 
+        font-family="Arial, sans-serif" 
+        font-size="48" 
+        font-weight="bold" 
+        fill="#333333">
+    Voti<tspan fill="#4CAF50">fy</tspan>
+  </text>
+  
+  <!-- Decorative dot -->
+  <circle cx="265" 
+          cy="50" 
+          r="8" 
+          fill="#4CAF50">
+    <animate attributeName="r" 
+             values="8;10;8" 
+             dur="2s" 
+             repeatCount="indefinite"/>
+  </circle>
+</svg>
