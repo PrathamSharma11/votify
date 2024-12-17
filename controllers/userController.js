@@ -220,7 +220,7 @@ static voting = async (req,res) => {
     if(user.isVoted){
       return res.status(200).json({message:"user has already voted"});
     }
-    if(userId === "670bf77af598e3bbc20e841c"){
+    if(userId === "67616072710beb6d1d661501"){
       return res.status(200).json({message:"admin cannot vote"});
     }
     candidate.votes.push({user:userId})

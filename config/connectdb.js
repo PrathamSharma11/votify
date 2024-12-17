@@ -11,4 +11,4 @@ const connectDb = async (DATABASE_URL)=>{
       console.log(error)
     }
 }
-export default connectDb
+export default connectDb 

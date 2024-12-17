@@ -48,3 +48,12 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 app.listen(port,()=>{
 console.log(`server listening at http://localhost:${port}`)
 })
+
+
+//  "email":"admin@gmail.com",
+//  "password":"votify@123"
+
+
+
+//email:1pratham1sharma@gmail.com,
+//password:123456
